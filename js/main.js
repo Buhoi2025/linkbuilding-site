@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{document.querySelectorAll(".year").forEach(e=>e.textContent=new Date().getFullYear());const n=document.querySelector(".navbar");window.addEventListener("scroll",()=>n&&n.classList.toggle("scrolled",scrollY>30));});
